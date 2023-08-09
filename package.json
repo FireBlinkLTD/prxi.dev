@@ -5,6 +5,7 @@
   "main": "dist/index.js",
   "author": "Vladyslav Tkachenko <vlad@fireblink.com>",
   "license": "MIT",
+  "private": false,
   "bin": {
     "prxi": "dist/src/cli.js"
   },
