@@ -31,7 +31,9 @@ export const handler = async (config: ServerConfig) => {
           ProxyHandler,
         ]
       }
-    ]
+    ],
+    proxyRequestHeaders: config.options.request,
+    responseHeaders: config.options.response,
   });
 
   try {
