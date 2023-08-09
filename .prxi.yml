@@ -1,0 +1,21 @@
+port: 4444
+upstream: http://localhost:8080
+
+default:
+  # additional headers to add to the upstream request
+  request:
+    HEADER-REQUEST: >-
+      {
+        "json": true
+      }
+
+  # additional headers to add to the response
+  response:
+    HEADER-RESPONSE: some value
+
+options:
+  custom1:
+    request:
+      X-Custom-1-Request: 1
+    response:
+      X-Custom-1-Response: 1
