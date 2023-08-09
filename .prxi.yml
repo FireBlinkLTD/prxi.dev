@@ -1,13 +1,10 @@
 port: 4444
-upstream: http://localhost:8080
+upstream: http://localhost:4200
 
 default:
   # additional headers to add to the upstream request
   request:
-    HEADER-REQUEST: >-
-      {
-        "json": true
-      }
+    HEADER-REQUEST: '{ "json": true }'
 
   # additional headers to add to the response
   response:

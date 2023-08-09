@@ -48,4 +48,6 @@ export const handler = async (config: ServerConfig) => {
     logger.child({error: e, config}).error('Failed to start proxy server');
     process.exit(1);
   }
+
+  return prxi;
 }
