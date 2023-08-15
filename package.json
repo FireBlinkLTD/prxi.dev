@@ -1,6 +1,6 @@
 {
   "name": "@prxi/dev",
-  "version": "0.1.3",
+  "version": "0.1.4",
   "description": "Localhost proxy server based on prxi",
   "main": "dist/index.js",
   "author": "Vladyslav Tkachenko <vlad@fireblink.com>",
