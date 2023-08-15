@@ -64,3 +64,8 @@ To apply the options run `prxi` cli with the `-o --option` parameter, e.g:
 ```bash
 prxi -o option-name
 ```
+
+## Useful Links
+
+- [prxi](https://www.npmjs.com/package/prxi) zero dependency reverse proxy Node.js library
+- [fireblink/prxi-openid-connect](https://hub.docker.com/r/fireblink/prxi-openid-connect) an OpenID Connect reverse proxy server based on [prxi](https://www.npmjs.com/package/prxi)
